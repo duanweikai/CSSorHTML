@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册</title>
+    <style>
+        body {
+            background-image: url("325257.jpg");
+        }
+
+        div.container {
+            background-color: wheat;
+            width: 30%;
+            margin: 160px auto;
+            padding: 50px;
+
+            border: 2px dotted black;
+            border-radius: 20px;
+            box-shadow: 30px 13px 30px black;
+        }
+
+        span {
+            display: inline-block;
+            width: 100px;
+        }
+
+        div.container > form > div {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form>
+        <div>
+            <span>用户名：</span><input type="text" name="username">
+        </div>
+        <div>
+            <span>密码：</span><input type="password" name="password">
+        </div>
+        <div>
+            <span>手机号: </span><input type="text" name="phone">
+        </div>
+        <div>
+            <span>手机验证码: </span><input type="text" name="code">
+        </div>
+        <div>
+            <button type="submit">注册</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

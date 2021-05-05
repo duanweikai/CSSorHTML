@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS Demo</title>
+    </head>
+    <body>
+        <script>
+            console.log("Hello World");
+            var a = 10;
+            var b = 5;
+            var c = a + b;
+            console.log(c);
+            console.log("String.x");
+            console.log("xxx");
+
+            function add(x, y) {
+                return x + y;
+            }
+            function f1() {
+                return console.log("return f1");
+
+            }
+            var func = add;
+            var f = function (m, n) {
+                return m * n;
+            }
+            console.log(add(7, 10));
+            console.log(func(7, 20));
+            console.log(f(3, 7));
+        </script>
+    </body>
+</html>
